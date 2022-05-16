@@ -1,0 +1,174 @@
+h1 {
+text-align: center;
+background-color: White;
+color:White;
+font-size: 80px;
+font-weight: bolder;
+outline-style: solid; color: lightblue;
+position: static;
+width: 100%;
+}
+/*this controls what the title looks like on everysingle page */
+
+h3 {
+text-align: center;
+background-color: White;
+color:White;
+font-size: 40px;
+font-weight: bolder;
+outline-style: solid; color: lightblue;
+position: static;
+width: 100%;
+}
+
+body {
+  background-image: url("../Image/Mancity Stadium.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*This controls the image that is behind everthing by making it move with the website instead of being still when scrolling */
+
+.PageSelect{
+  display: flex;
+  justify-content: space-around:
+}
+/* I chose this page select code because it makes the website easy to navigate especialy when there are multiple pages to navigate*/
+
+nav a {
+  color: lightblue;
+  padding: 20px;
+  text-decoration: none;
+  flex-grow: 2;
+  text-align: center;
+  background-color: White;
+  transition: 0.1s;
+  font-weight: bolder;
+  font-size: 50px;
+  outline-style: solid; color: lightblue;
+}
+/*This makes the page select the same colour as the rest of the website making it fit in with the design*/
+
+nav a:hover{
+  background: lightblue;
+  color: White;
+  outline-color: white;
+}
+/* i chose these colours for the navigation because it works well with the original colour making it visable when hovering over it */
+
+.welcomeinfo{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: White;
+  color:White;
+  font-size: 20px;
+  font-weight: bolder;
+  outline-style: solid; color: lightblue;
+  position: static;
+  width: 100%;
+}
+
+
+footer{
+  text-align: center;
+  color: lightblue;
+  font-weight: bold;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  outline-style: solid; color: lightblue;
+}
+/* i chose these colours because it makes it a nice end border to the pages */
+
+footer a{
+  text-align: center;
+  color: lightblue;
+  font-weight: bold;
+  background-color: White;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+img{
+border-radius: 15px;
+width: 280px;
+height: 350px;
+float: left;
+margin: 15px;
+}
+/* i chose these sizes because it fits nicely with all the text around it */
+
+.video{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+/*i chose these sizes because it fit perfectly with the rest of the website */
+
+h4{
+  color: lightblue;
+  padding: 20px;
+  text-decoration: none;
+  flex-grow: 2;
+  text-align: center;
+  background-color: White;
+  transition: 0.1s;
+  font-weight: bolder;
+  font-size: 50px;
+  outline-style: solid; color: lightblue;
+}
+
+.Location{
+  border-radius: 15px;
+  width: 280px;
+  height: 350px;
+  float: center;
+  margin: 15px;
+
+}
+/* this controls the image on the game location page*/
+
+.gamelocation{
+  color: lightblue;
+  padding: 20px;
+  text-decoration: none;
+  flex-grow: 2;
+  text-align: center;
+  background-color: White;
+  transition: 0.1s;
+  font-weight: bolder;
+  font-size: 50px;
+  outline-style: solid; color: lightblue;
+}
+/*this controls what the text looks like on the location page*/
+
+.twitter{
+  border-radius: 15px;
+  width: 280px;
+  height: 350px;
+  float: center;
+  margin: 20px;
+}
+/*this controls the size of the images on the contact page*/
+
+.twitterimg{
+
+  transition: width 1s height 1s transform 1s;
+}
+.twitterimg:hover{
+  width: 400px;
+  height: 400px;
+  transform: scale(720deg);
+}
+/*this controls the images on the contact page making them increase in size when you hover over them*/
